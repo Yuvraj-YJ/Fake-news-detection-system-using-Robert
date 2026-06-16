@@ -1,0 +1,33 @@
+# Python virtual environment
+venv/
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dataset (too large for GitHub, ~245MB)
+WELFake_Dataset.csv
+
+# Trained model weights (too large for GitHub, ~500MB)
+local_model/
+
+# Training checkpoints and logs
+results/
+logs/
+
+# Temporary audio files
+temp_voice.wav
+
+# Session prediction log
+prediction_history.csv
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
